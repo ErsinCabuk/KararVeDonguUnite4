@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Karar ve Döngü Ünite 4</string>
+    <string name="uyg1">Uygulama 1 (100\'den Büyükse)</string>
+    <string name="uyg2">Uygulama 2 (2 Sayi Büyükse)</string>
+    <string name="uyg3">Uygulama 3 (Giriş)</string>
+    <string name="uyg4">Uygulama 4 (Konum Servisi)</string>
+    <string name="uyg5">Uygulama 5 (Ortalama Hesaplama)</string>
+    <string name="uyg6">Uygulama 6 (Ay Hesaplama)</string>
+    <string name="uyg7">Uygulama 7 (for döngüsü)</string>
+    <string name="uyg8">Uygulama 8 (3\'er 3\'er sayılar)</string>
+    <string name="uyg9">Uygulama 9 (Sayılar)</string>
+    <string name="uyg10">Uygulama 10 (Faktoriyel)</string>
+    <string name="kontrol_et">Kontrol Et</string>
+    <string name="not">Not</string>
+    <string name="sayi">Sayı</string>
+    <string name="geri">Geri</string>
+</resources>

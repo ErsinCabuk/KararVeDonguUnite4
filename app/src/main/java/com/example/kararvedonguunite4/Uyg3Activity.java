@@ -11,8 +11,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class Uyg3Activity extends AppCompatActivity {
     EditText txtUsername, txtPassword;
-    final String username = "ErsinCabuk";
-    final String password = "123456789";
+    final String username = "ErsinCabuk", password = "123456789";
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {

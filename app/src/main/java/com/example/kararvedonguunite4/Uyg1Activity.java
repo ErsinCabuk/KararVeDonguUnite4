@@ -23,6 +23,7 @@ public class Uyg1Activity extends AppCompatActivity {
     public void btnKontrolEt(View view) {
         int sayi = Integer.parseInt(textNot.getText().toString());
         if(sayi > 100) Toast.makeText(this, "100'den büyük değer girilmez.", Toast.LENGTH_LONG).show();
+        else Toast.makeText(this, "Not kaydedildi.", Toast.LENGTH_LONG).show();
     }
 
     public void geri(View view) {

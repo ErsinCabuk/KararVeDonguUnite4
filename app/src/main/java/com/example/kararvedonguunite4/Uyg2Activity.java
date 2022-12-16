@@ -22,7 +22,7 @@ public class Uyg2Activity extends AppCompatActivity {
     }
 
     public void btnKontrolEt(View view) {
-        int sayi1 = Integer.parseInt(textSayi1.getText().toString());
+        int  sayi1 = Integer.parseInt(textSayi1.getText().toString());
         int sayi2 = Integer.parseInt(textSayi2.getText().toString());
         if(sayi1 > sayi2) {
             Toast.makeText(Uyg2Activity.this,"1. sayı daha büyüktür",Toast.LENGTH_LONG).show();

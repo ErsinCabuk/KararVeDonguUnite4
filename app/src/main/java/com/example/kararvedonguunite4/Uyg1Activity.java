@@ -10,23 +10,23 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 public class Uyg1Activity extends AppCompatActivity {
-    EditText textNot;
+    EditText txtNumber;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.uyg1_activity);
 
-        textNot = findViewById(R.id.textNot);
+        txtNumber = findViewById(R.id.txtNumber);
     }
 
     public void btnKontrolEt(View view) {
-        int sayi = Integer.parseInt(textNot.getText().toString());
-        if(sayi > 100) Toast.makeText(this, "100'den büyük değer girilmez.", Toast.LENGTH_LONG).show();
+        int number = Integer.parseInt(txtNumber.getText().toString());
+        if(number > 100) Toast.makeText(this, "100'den büyük değer girilmez.", Toast.LENGTH_LONG).show();
         else Toast.makeText(this, "Not kaydedildi.", Toast.LENGTH_LONG).show();
     }
 
-    public void geri(View view) {
+    public void btnBack(View view) {
         Intent i = new Intent(Uyg1Activity.this, MainActivity.class);
         startActivity(i);
     }

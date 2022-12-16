@@ -14,4 +14,7 @@
     <string name="not">Not</string>
     <string name="sayi">Sayı</string>
     <string name="geri">Geri</string>
+    <string name="sifre">Şifre</string>
+    <string name="kullanici_adi">Kullanıcı Adı</string>
+    <string name="onayla">Onayla</string>
 </resources>

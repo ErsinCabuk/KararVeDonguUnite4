@@ -14,7 +14,7 @@ public class Uyg4Activity extends AppCompatActivity {
         setContentView(R.layout.uyg4_activity);
     }
 
-    public void geri(View view) {
+    public void btnBack(View view) {
         Intent i = new Intent(Uyg4Activity.this, MainActivity.class);
         startActivity(i);
     }

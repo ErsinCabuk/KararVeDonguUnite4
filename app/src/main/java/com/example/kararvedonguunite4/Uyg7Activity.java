@@ -14,7 +14,7 @@ public class Uyg7Activity extends AppCompatActivity {
         setContentView(R.layout.uyg7_activity);
     }
 
-    public void geri(View view) {
+    public void btnBack(View view) {
         Intent i = new Intent(Uyg7Activity.this, MainActivity.class);
         startActivity(i);
     }

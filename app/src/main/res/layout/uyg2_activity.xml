@@ -6,7 +6,7 @@
     android:layout_height="match_parent">
 
     <EditText
-        android:id="@+id/textSayi1"
+        android:id="@+id/txtNumber1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:autofillHints=""
@@ -23,7 +23,7 @@
         tools:ignore="DuplicateSpeakableTextCheck" />
 
     <EditText
-        android:id="@+id/textSayi2"
+        android:id="@+id/textNumber2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
@@ -35,12 +35,12 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.079"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textSayi1"
+        app:layout_constraintTop_toBottomOf="@+id/txtNumber1"
         app:layout_constraintVertical_bias="0.0"
         android:autofillHints="" />
 
     <Button
-        android:id="@+id/btnKontrolEt"
+        android:id="@+id/btnControl"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:onClick="btnKontrolEt"
@@ -48,15 +48,15 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.824"
-        app:layout_constraintStart_toEndOf="@+id/textSayi1"
+        app:layout_constraintStart_toEndOf="@+id/txtNumber1"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.028" />
 
     <Button
-        android:id="@+id/btnGeri"
+        android:id="@+id/btnBack"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="geri"
+        android:onClick="btnBack"
         android:text="@string/geri"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"

@@ -28,13 +28,13 @@
         android:hint="@string/kullanici_adi"
         android:inputType="textPersonName"
         android:minHeight="48dp"
-        android:textColorHint="#757575"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.027" />
+        app:layout_constraintVertical_bias="0.027"
+        tools:ignore="TextContrastCheck" />
 
     <EditText
         android:id="@+id/txtPassword"

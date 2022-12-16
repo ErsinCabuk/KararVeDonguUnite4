@@ -24,12 +24,8 @@ public class Uyg3Activity extends AppCompatActivity {
     }
 
     public void btnSuccess(View view) {
-        if(username.equals(txtUsername.getText().toString()) && password.equals(txtPassword.getText().toString())) {
-            Toast.makeText(this, "Giriş yapıldı.", Toast.LENGTH_LONG).show();
-        }
-        else {
-            Toast.makeText(this, "Giriş hatalı.", Toast.LENGTH_LONG).show();
-        }
+        if(username.equals(txtUsername.getText().toString()) && password.equals(txtPassword.getText().toString())) Toast.makeText(this, "Giriş yapıldı.", Toast.LENGTH_LONG).show();
+        else Toast.makeText(this, "Giriş hatalı.", Toast.LENGTH_LONG).show();
     }
 
     public void btnBack(View view) {

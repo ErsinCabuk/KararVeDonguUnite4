@@ -17,4 +17,7 @@
     <string name="sifre">Şifre</string>
     <string name="kullanici_adi">Kullanıcı Adı</string>
     <string name="onayla">Onayla</string>
+    <string name="konum_servisleri">Konum Servisleri</string>
+    <string name="konum_bilgilerini_al">Konum Bilgilerini Al</string>
+    <string name="konum_bilgilerini_gonder">Konum Bilgilerini Gönder</string>
 </resources>

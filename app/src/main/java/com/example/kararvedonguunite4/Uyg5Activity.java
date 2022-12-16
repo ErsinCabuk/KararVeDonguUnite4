@@ -23,13 +23,18 @@ public class Uyg5Activity extends AppCompatActivity {
     }
 
     public void btnSuccess(View view) {
-        float average = (Integer.parseInt(txtNumber1.getText().toString()) + Integer.parseInt(txtNumber2.getText().toString()) + Integer.parseInt(txtNumber3.getText().toString())) / 3;
-        if(average >= 0 && average < 25) Toast.makeText(this, "0 ile kaldınız.", Toast.LENGTH_LONG).show();
-        else if(average >= 25 && average < 50) Toast.makeText(this, "1 ile kaldınız.", Toast.LENGTH_LONG).show();
-        else if(average >= 50 && average < 60) Toast.makeText(this, "2 ile geçtiniz.", Toast.LENGTH_LONG).show();
-        else if(average >= 60 && average < 70) Toast.makeText(this, "3 ile geçtiniz.", Toast.LENGTH_LONG).show();
-        else if(average >= 70 && average < 85) Toast.makeText(this, "4 ile geçtiniz.", Toast.LENGTH_LONG).show();
-        else if(average >= 85 && average < 100) Toast.makeText(this, "5 ile geçtiniz. Tebrikler!", Toast.LENGTH_LONG).show();
+        int number1 = Integer.parseInt(txtNumber1.getText().toString()),
+            number2 = Integer.parseInt(txtNumber2.getText().toString()),
+            number3 = Integer.parseInt(txtNumber3.getText().toString());
+        float average = (number1 + number2 + number3) / 3;
+
+        if(number1 > 100 || number2 > 100 || number3 > 100) Toast.makeText(this, "Girilen not bilgileri hatalı", Toast.LENGTH_LONG).show();
+        else if(average >= 0 && average < 25) Toast.makeText(this, "Ortalamanız " + average + ". 0 ile kaldınız.", Toast.LENGTH_LONG).show();
+        else if(average >= 25 && average < 50) Toast.makeText(this, "Ortalamanız " + average + ". 1 ile kaldınız.", Toast.LENGTH_LONG).show();
+        else if(average >= 50 && average < 60) Toast.makeText(this, "Ortalamanız " + average + ". 2 ile geçtiniz.", Toast.LENGTH_LONG).show();
+        else if(average >= 60 && average < 70) Toast.makeText(this, "Ortalamanız " + average + ". 3 ile geçtiniz.", Toast.LENGTH_LONG).show();
+        else if(average >= 70 && average < 85) Toast.makeText(this, "Ortalamanız " + average + ". 4 ile geçtiniz.", Toast.LENGTH_LONG).show();
+        else if(average >= 85 && average < 100) Toast.makeText(this, "Ortalamanız " + average + ". 5 ile geçtiniz. Tebrikler!", Toast.LENGTH_LONG).show();
         else Toast.makeText(this, "Girilen not bilgileri hatalı.", Toast.LENGTH_LONG).show();
     }
 

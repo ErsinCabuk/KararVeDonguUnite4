@@ -25,4 +25,8 @@
     <string name="ders_notu_3">3. Ders Notu</string>
     <string name="ay">Ay</string>
     <string name="calistir">Çalıştır</string>
+    <string name="cift_sayilar">Çift Sayılar</string>
+    <string name="tum_sayilar">Tüm Sayılar</string>
+    <string name="tek_sayilar">Tek Sayılar</string>
+    <string name="sayilar">Sayılar</string>
 </resources>

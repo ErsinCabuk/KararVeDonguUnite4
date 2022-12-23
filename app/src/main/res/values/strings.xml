@@ -29,4 +29,5 @@
     <string name="tum_sayilar">Tüm Sayılar</string>
     <string name="tek_sayilar">Tek Sayılar</string>
     <string name="sayilar">Sayılar</string>
+    <string name="sonuc">Sonuç:</string>
 </resources>

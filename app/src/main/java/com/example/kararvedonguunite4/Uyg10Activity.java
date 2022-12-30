@@ -20,22 +20,16 @@ public class Uyg10Activity extends AppCompatActivity {
         setContentView(R.layout.uyg10_activity);
         txtNumber = findViewById(R.id.txtNumber);
         txtResult = findViewById(R.id.txtResult);
-        Log.v("Etiket", "saaaaaas");
     }
 
     public void btnSuccess(View view) {
-        Log.v("Etiket", "sa");
         int number = Integer.parseInt(txtNumber.getText().toString());
-        Log.v("Etiket", "as");
         int counter = 1;
-        Log.v("Etiket", "saa");
         long result = 1;
-        Log.v("Etiket", "ass");
         while(counter <= number) {
             result = result * counter;
             counter++;
         }
-        Log.v("Etiket", "saaa");
         txtResult.setText("Sonuç: " + result);
     }
 

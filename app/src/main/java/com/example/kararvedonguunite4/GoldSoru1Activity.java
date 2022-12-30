@@ -1,5 +1,6 @@
 package com.example.kararvedonguunite4;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
@@ -27,5 +28,10 @@ public class GoldSoru1Activity extends AppCompatActivity {
         txtResult.setText("");
         for (int i = 1; i <= 10; i++) result += number + " x " + i + " = " + number * i + " \n";
         txtResult.setText(result);
+    }
+
+    public void btnBack(View view) {
+        Intent i = new Intent(GoldSoru1Activity.this, MainActivity.class);
+        startActivity(i);
     }
 }

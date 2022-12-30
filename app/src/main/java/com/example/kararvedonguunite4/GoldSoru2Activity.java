@@ -10,8 +10,6 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public class GoldSoru2Activity extends AppCompatActivity {
     EditText txtNumber, txtSingleNumbers, txtDoubleNumbers;
-    TextView txtSingleResult, txtDoubleResult; //---
-
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
@@ -46,7 +44,5 @@ public class GoldSoru2Activity extends AppCompatActivity {
 
         txtSingleNumbers.setText(singleNumbers);
         txtDoubleNumbers.setText(doubleNumbers);
-
-
     }
 }

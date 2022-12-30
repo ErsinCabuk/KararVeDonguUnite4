@@ -156,4 +156,17 @@
         app:layout_constraintTop_toBottomOf="@+id/textView"
         app:layout_constraintVertical_bias="0.048" />
 
+    <Button
+        android:id="@+id/btnGoldSoru2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="btnGoldSoru2"
+        android:text="@string/goldsoru2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnGoldSoru1"
+        app:layout_constraintVertical_bias="0.0" />
+
 </androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,8 +10,9 @@
     <string name="uyg8">Uygulama 8 (3\'er 3\'er sayılar)</string>
     <string name="uyg9">Uygulama 9 (Sayılar)</string>
     <string name="uyg10">Uygulama 10 (Faktoriyel)</string>
-    <string name="goldsoru1">Gold Soru 1 (Çarpım Tablosu)</string>
     <string name="goldsoru">Gold Soru</string>
+    <string name="goldsoru1">Gold Soru 1 (Çarpım Tablosu)</string>
+    <string name="goldsoru2">Gold Soru 2 (Tek - Çift Sayılar)</string>
     <string name="kontrol_et">Kontrol Et</string>
     <string name="not">Not</string>
     <string name="sayi">Sayı</string>
@@ -33,4 +34,6 @@
     <string name="sayilar">Sayılar</string>
     <string name="sonuc">Sonuç:</string>
     <string name="carpimtablosu">Çarpım Tablosu</string>
+    <string name="tek_sayilar_toplami">Tek Sayılar Toplamı</string>
+    <string name="cift_sayilar_toplami">Çift Sayılar Toplamı</string>
 </resources>
